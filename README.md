@@ -1,7 +1,7 @@
 # Arduino Serial ile Led Kontrolü
 Arduino Kartı üzerinde Serial arayüzü ile led kontrolü sağlar. <br/>
 echo modu, led Açık/Kapalı süreleri ayarlanabilir. <br/>
-Serial üzerinden kullanabileceğiniz bazı komutlar;<br/>
+Serial Monitörüzerinden kullanabileceğiniz bazı komutlar;<br/>
 echo modunu aktif hale getir:<br>
 ```
 start
