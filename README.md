@@ -5,5 +5,5 @@ Serial üzerinden kullanabileceğiniz bazı komutlar;<br><br><br>
 echo modunu aktif et:<br>
 "'
 start
-'"
+"'
 
