@@ -22,3 +22,30 @@ void led::task1() {
   }
   digitalWrite(13, ledState);
 }
+
+void led::task2() {
+  if (serialStatus) {
+    data.toCharArray(temp, 32);
+
+    sscanf(temp, "ledon=%d", &ledTime[0]);
+    sscanf(temp, "ledoff=%d", &ledTime[1]);
+
+    if (!strncmp(temp, "stop", 4)) {
+      uart = false;
+      ledTime[0] = 1000;
+      ledTime[1] = 1000;
+    }
+    if (!strncmp(temp, "start", 5)) {
+      uart = true;
+      ledTime[0] = 300;
+      ledTime[1] = 700;
+    }
+    if (uart) {
+      Serial.print(temp);
+    }
+
+    data = "";
+    serialStatus = false;
+
+  }
+}
