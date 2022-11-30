@@ -7,5 +7,5 @@ void setup() {
 }
 
 void loop() {
-	
+	led.task1(); // 1. task led on off yapacak. Örnek (300ms ON 700ms off) on off süreleri ayarlanabilir olacak. 
 }
