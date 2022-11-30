@@ -18,7 +18,7 @@ Led Kapalı kalma süresini set etmek için:<br/>
 ```
 ledoff=time_ms
 ```
-<h3>Arduino Boardunda Test Etmek</h3> <br/>
+<h3>Arduino Kartında Test Etmek</h3> <br/>
 ``
 Arduino IDE kullanarak Arduino Kartlarında herhangi biri ile Serial Monitör kullanarak Test Edebilirsiniz.
 ``
